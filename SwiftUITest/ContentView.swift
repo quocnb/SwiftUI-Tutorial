@@ -10,19 +10,8 @@ import SwiftUI
 
 struct ContentView : View {
     var body: some View {
-        VStack {
-            MapView().edgesIgnoringSafeArea(.top).frame(height: 300)
-            CircleImage().offset(x: 0, y: -130).padding(.bottom, -130)
-            VStack(alignment: .leading) {
-                Text("Turtle Rock").font(.title).color(.red)
-                HStack {
-                    Text("Joshua Tree National Park").font(.subheadline).color(.green)
-                    Spacer()
-                    Text("Califonia").font(.subheadline).color(.blue)
-                }
-            }.padding()
-            Spacer()
-        }
+        LandmarkList()
+//        LandmarkDetail()
     }
 }
 
