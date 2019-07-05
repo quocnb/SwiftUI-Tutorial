@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		791FCF3822CF1CDC0012F4AA /* CircleImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 791FCF3722CF1CDC0012F4AA /* CircleImage.swift */; };
 		79DB3C4722CDB000006B57B3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79DB3C4622CDB000006B57B3 /* AppDelegate.swift */; };
 		79DB3C4922CDB000006B57B3 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79DB3C4822CDB000006B57B3 /* SceneDelegate.swift */; };
 		79DB3C4B22CDB000006B57B3 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79DB3C4A22CDB000006B57B3 /* ContentView.swift */; };
@@ -16,6 +17,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		791FCF3722CF1CDC0012F4AA /* CircleImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleImage.swift; sourceTree = "<group>"; };
 		79CF71F822CDDC4E002D185A /* SwiftUITest.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = SwiftUITest.entitlements; sourceTree = "<group>"; };
 		79DB3C4322CDB000006B57B3 /* SwiftUITest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftUITest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		79DB3C4622CDB000006B57B3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -61,6 +63,7 @@
 				79DB3C4622CDB000006B57B3 /* AppDelegate.swift */,
 				79DB3C4822CDB000006B57B3 /* SceneDelegate.swift */,
 				79DB3C4A22CDB000006B57B3 /* ContentView.swift */,
+				791FCF3722CF1CDC0012F4AA /* CircleImage.swift */,
 				79DB3C4C22CDB002006B57B3 /* Assets.xcassets */,
 				79DB3C5122CDB002006B57B3 /* LaunchScreen.storyboard */,
 				79DB3C5422CDB002006B57B3 /* Info.plist */,
@@ -149,6 +152,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				79DB3C4722CDB000006B57B3 /* AppDelegate.swift in Sources */,
+				791FCF3822CF1CDC0012F4AA /* CircleImage.swift in Sources */,
 				79DB3C4922CDB000006B57B3 /* SceneDelegate.swift in Sources */,
 				79DB3C4B22CDB000006B57B3 /* ContentView.swift in Sources */,
 			);
