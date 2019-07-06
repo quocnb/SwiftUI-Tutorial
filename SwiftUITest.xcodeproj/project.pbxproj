@@ -27,6 +27,8 @@
 		791FCF5C22CF2B0C0012F4AA /* umbagog.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 791FCF5022CF2B0C0012F4AA /* umbagog.jpg */; };
 		791FCF5F22CF2D310012F4AA /* LandmarkRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 791FCF5E22CF2D310012F4AA /* LandmarkRow.swift */; };
 		791FCF6122CF3CC40012F4AA /* LandmarkList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 791FCF6022CF3CC40012F4AA /* LandmarkList.swift */; };
+		79C1EAD722D0CA37000DF595 /* charleyrivers.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 79C1EAD622D0CA37000DF595 /* charleyrivers.jpg */; };
+		79C1EAD922D0D5B6000DF595 /* UserData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79C1EAD822D0D5B6000DF595 /* UserData.swift */; };
 		79DB3C4722CDB000006B57B3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79DB3C4622CDB000006B57B3 /* AppDelegate.swift */; };
 		79DB3C4922CDB000006B57B3 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79DB3C4822CDB000006B57B3 /* SceneDelegate.swift */; };
 		79DB3C4B22CDB000006B57B3 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79DB3C4A22CDB000006B57B3 /* ContentView.swift */; };
@@ -56,6 +58,8 @@
 		791FCF5022CF2B0C0012F4AA /* umbagog.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = umbagog.jpg; sourceTree = "<group>"; };
 		791FCF5E22CF2D310012F4AA /* LandmarkRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandmarkRow.swift; sourceTree = "<group>"; };
 		791FCF6022CF3CC40012F4AA /* LandmarkList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandmarkList.swift; sourceTree = "<group>"; };
+		79C1EAD622D0CA37000DF595 /* charleyrivers.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = charleyrivers.jpg; sourceTree = "<group>"; };
+		79C1EAD822D0D5B6000DF595 /* UserData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserData.swift; sourceTree = "<group>"; };
 		79CF71F822CDDC4E002D185A /* SwiftUITest.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = SwiftUITest.entitlements; sourceTree = "<group>"; };
 		79DB3C4322CDB000006B57B3 /* SwiftUITest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftUITest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		79DB3C4622CDB000006B57B3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -95,6 +99,7 @@
 			children = (
 				791FCF3B22CF284B0012F4AA /* Landmark.swift */,
 				791FCF4322CF2ADD0012F4AA /* Data.swift */,
+				79C1EAD822D0D5B6000DF595 /* UserData.swift */,
 			);
 			path = "Data Models";
 			sourceTree = "<group>";
@@ -103,6 +108,7 @@
 			isa = PBXGroup;
 			children = (
 				791FCF3F22CF28B80012F4AA /* landmarkData.json */,
+				79C1EAD622D0CA37000DF595 /* charleyrivers.jpg */,
 				791FCF4522CF2B0B0012F4AA /* chilkoottrail.jpg */,
 				791FCF4722CF2B0B0012F4AA /* chincoteague.jpg */,
 				791FCF4B22CF2B0B0012F4AA /* hiddenlake.jpg */,
@@ -226,6 +232,7 @@
 				79DB3C5322CDB002006B57B3 /* LaunchScreen.storyboard in Resources */,
 				791FCF5A22CF2B0C0012F4AA /* twinlake.jpg in Resources */,
 				791FCF4022CF28B80012F4AA /* landmarkData.json in Resources */,
+				79C1EAD722D0CA37000DF595 /* charleyrivers.jpg in Resources */,
 				791FCF5222CF2B0C0012F4AA /* turtlerock.jpg in Resources */,
 				791FCF5722CF2B0C0012F4AA /* hiddenlake.jpg in Resources */,
 				791FCF5822CF2B0C0012F4AA /* lakemcdonald.jpg in Resources */,
@@ -250,6 +257,7 @@
 				791FCF3A22CF1FBB0012F4AA /* MapView.swift in Sources */,
 				79DB3C4922CDB000006B57B3 /* SceneDelegate.swift in Sources */,
 				79DB3C4B22CDB000006B57B3 /* ContentView.swift in Sources */,
+				79C1EAD922D0D5B6000DF595 /* UserData.swift in Sources */,
 				791FCF3C22CF284B0012F4AA /* Landmark.swift in Sources */,
 				791FCF4222CF29DD0012F4AA /* LandmarkDetail.swift in Sources */,
 				791FCF4422CF2ADD0012F4AA /* Data.swift in Sources */,

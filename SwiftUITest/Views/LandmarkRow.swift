@@ -14,8 +14,11 @@ struct LandmarkRow : View {
     var body: some View {
         HStack {
             landmark.image(forSize: 50)
-            Text(landmark.name)
-                .frame(minWidth: 0.0, idealWidth: 0.0, maxWidth: .infinity, minHeight: 0, idealHeight: 0, maxHeight: .infinity, alignment: .leading)
+            Text(verbatim: landmark.name)
+            Spacer()
+            if landmark.isFavorite {
+                Image(systemName: "star.fill").imageScale(.medium).foregroundColor(.yellow)
+            }
         }
     }
 }

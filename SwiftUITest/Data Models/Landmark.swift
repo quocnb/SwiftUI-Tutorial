@@ -13,6 +13,8 @@ struct Landmark: Hashable, Codable, Identifiable {
     let name, category, city, state: String
     let id: Int
     let park: String
+    var isFavorite: Bool
+    let isFeatured: Bool
     private let coordinates: Coordinates
     private let imageName: String
 
