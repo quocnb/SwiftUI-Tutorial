@@ -11,16 +11,18 @@ import Combine
 
 final class UserData: BindableObject {
 
-    let didChange = PassthroughSubject<UserData, Never>()
+    typealias PublisherType = PassthroughSubject<UserData, Never>
+
+    let willChange = PassthroughSubject<UserData, Never>()
 
     var showFavoritesOnly = false {
         didSet {
-            didChange.send(self)
+            willChange.send(self)
         }
     }
     var landmarks = landmarkData {
         didSet {
-            didChange.send(self)
+            willChange.send(self)
         }
     }
 }
