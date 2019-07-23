@@ -10,13 +10,14 @@ import SwiftUI
 import CoreLocation
 
 struct Landmark: Hashable, Codable, Identifiable {
-    let name, category, city, state: String
+    let name, city, state: String
     let id: Int
     let park: String
     var isFavorite: Bool
     let isFeatured: Bool
     private let coordinates: Coordinates
     private let imageName: String
+    var category: Category
 
     var locationCoordinate: CLLocationCoordinate2D {
         CLLocationCoordinate2D(
@@ -32,6 +33,7 @@ struct Landmark: Hashable, Codable, Identifiable {
         case featured = "Featured"
         case lakes = "Lakes"
         case rivers = "Rivers"
+        case mountains = "Mountains"
     }
 }
 
