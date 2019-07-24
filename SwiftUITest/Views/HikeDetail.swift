@@ -29,7 +29,7 @@ struct HikeDetail: View {
                     }) {
                         Text(verbatim: value.0)
                             .font(.system(size: 15))
-                            .color(value.1 == self.dataToShow
+                            .foregroundColor(value.1 == self.dataToShow
                                 ? Color.gray
                                 : Color.accentColor)
                             .animation(nil)
